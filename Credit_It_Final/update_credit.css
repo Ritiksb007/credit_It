@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Aclonica', cursive;
+}
+
+.mart-name {
+    margin: 5px;
+    color: #2a2a2a;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+body {
+            background-color: #eafc28;
+        }
+
+h1 {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    margin-bottom: 200px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Aclonica';
+}
+
+.login-container {
+    font-family: 'Aclonica';
+    font: 25px;
+    background-color: white;
+    line-height: 12px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 60px;
+    border-radius: 10px;
+    border: #000000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 575px;
+    /* Limit the width to fit smaller screens */
+    width: 900px;
+    height: 450px;
+    /* Fallback for older browsers */
+
+}
+
+.form-label {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+
+}
+
+.form-select {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+input {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 3px;
+    color: #000000;
+}
+.input-label {
+    font-size: large;
+    margin-right: 10px;
+    width: 420px;
+}
+
+.custom-input {
+    width: 420px;
+    font-size: large;
+    /* Adjust the width as needed */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.form-control {
+    text-align: center;
+    font-size: large;
+}
+
+.button-container {
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    font-size: 20px;
+    padding: 10px 90px;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.btn1 {
+    margin-right: 40px;
+    background-color: white;
+    font-size: 18px;
+    align-items: left;
+    height: auto;
+    padding: 15px;
+    width: 200px;
+    color: black;
+    cursor: pointer;
+    border: 5px solid #eafc28;
+    border-radius: 10px;
+}
+
+.btn2 {
+    text-decoration: none;
+    margin-right: 10px;
+    background-color: white;
+    font-size: 18px;
+    align-items: left;
+    height: auto;
+    padding: 15px;
+    width: 250px;
+    color: black;
+    cursor: pointer;
+    border: 5px solid #eafc28;
+    border-radius: 10px;
+}

@@ -1,0 +1,130 @@
+.center-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+body{
+    background-color: aquamarine;
+}
+.close{
+    cursor: pointer;
+    position: absolute;
+    top: 10rem;
+    right: 50rem;
+}
+.container{
+    max-width: 700px;
+    height: 500px;
+    border: 1.033px solid #000;
+    background: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 20px; /* Add padding for spacing */
+    position: relative; /* Added relative position */
+}
+h1{
+    text-align: center;
+    font-family: Aclonica;
+    font-size: 29.487px;
+    margin-left: 29.487px;
+    margin-right: 33px;
+    margin-top: 91px;
+    
+}
+h2{
+    color: #000;
+    text-align: center;
+    font-family: Aclonica;
+    font-size: 29.487px;
+    margin-left: 37px;
+    margin-right: 38px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+P{
+    color: #000;
+    text-align: center;
+    font-family: Aclonica;
+    font-size: 29.487px;
+    margin-right: 46px;
+    margin-bottom: 406px;
+
+}
+/* Style for the buttons */
+.button-group {
+    text-align: center;
+    left: 10rem;
+}
+
+button:not(.back-button) {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 22px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    margin-top: -60px; /* Adjust the value as needed */
+}
+
+/* Style for the delete button */
+#delete-button {
+    background-color: #dc3545;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button-group {
+    text-align: center;
+    margin-top: 20px; /* Adjust spacing */
+    position: absolute;
+    bottom: 20px; /* Position at the bottom */
+    left: 0;
+    right: 0;
+}
+/* Style for the buttons */
+.styled-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 22px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none; /* Remove underline from links */
+    margin: 10px; /* Add spacing between buttons */
+}
+
+/* Style for the delete button */
+.styled-button #delete-button {
+    background-color: #dc3545;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.back-button {
+    font-family: 'Bahnschrift SemiBold', Arial, sans-serif;
+    position: absolute;
+    top: 50px; /* Adjust this value to control the distance */
+    right: 30px;
+    padding: 10px 15px;
+    background-color: transparent;
+    color: black;
+    border-color: black;
+    border-radius: 4px;
+    font-size: 60px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.back-button:hover {
+    background-color:black;
+    color: white;
+}

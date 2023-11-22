@@ -1,0 +1,132 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+/* Common Styles for both nav and home */
+.xyz {
+    width: 100%;
+    min-height: 100vh;
+    color: #525252;
+    background-image: url("images/home_background.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 25px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Home Page Styles */
+.mart-name {
+    margin: 5px;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.cbuttons {
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    padding: 10px 90px;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.new-credit,
+.mng-cstmr,
+.update-credit,
+.pending-payments,
+.backup {
+    border-radius: 25px;
+    width: 300px;
+    height: 63px;
+    flex-shrink: 0;
+    font-size: 18px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 20px;
+    margin-bottom: 40px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.new-credit:hover,
+.mng-cstmr:hover,
+.update-credit:hover,
+.pending-payments:hover,
+.backup:hover {
+    cursor: pointer;
+    border: 2px solid #000000;
+}
+
+.new-credit {
+    border: 5px solid rgba(34, 0, 242, 1);
+    position: absolute;
+    top: 230px;
+    left: 30px;
+}
+
+.mng-cstmr {
+    border: 5px solid #05D558;
+    position: absolute;
+    top: 230px;
+    left: 600px;
+}
+
+.update-credit {
+    border: 5px solid #f7f561;
+    position: absolute;
+    top: 400px;
+    left: 30px;
+}
+
+.pending-payments {
+    border: 5px solid #D50505;
+    position: absolute;
+    top: 400px;
+    left: 600px;
+}
+
+.backup {
+    border: 5px solid #F2A000;
+    position: absolute;
+    top: 580px;
+    left: 315px;
+}
+
+@media(max-width: 600px) {
+    * {
+        padding: 0;
+        box-sizing: border-box;
+        margin: auto;
+    }
+
+    .hero {
+        max-height: 380px;
+        overflow: auto;
+    }
+
+    .sub-menu-wrap {
+        margin-bottom: 12px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .input-box:nth-child() {
+        justify-content: space-between;
+    }
+
+    .hero::-webkit-scrollbar {
+        width: 10;
+    }
+}
